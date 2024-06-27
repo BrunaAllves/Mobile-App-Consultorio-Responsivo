@@ -1,0 +1,29 @@
+.principal {
+    height: 144px;
+    display: flex;
+    align-items: center;
+    padding: 65px 16px;
+}
+
+.principal_perfil {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+
+.principal-descrição-titulo {
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: left;
+    color: var(--texto);
+}
+
+.principal-descrição-subtitulo {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    color: var(--texto-claro);
+}

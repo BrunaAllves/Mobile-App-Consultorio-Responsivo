@@ -2,7 +2,6 @@
     height: 144px;
     display: flex;
     align-items: center;
-    padding: 65px 16px;
 }
 
 .principal_perfil {
@@ -27,3 +26,4 @@
     text-align: left;
     color: var(--texto-claro);
 }
+

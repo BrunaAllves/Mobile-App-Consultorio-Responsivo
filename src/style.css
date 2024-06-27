@@ -3,3 +3,18 @@
 @import url('../src/reset.css');
 @import url('../src/barra.css');
 @import url('../src/home.css');
+@import url('../src/consultas.css');
+
+body{
+    background: var(--fundo);
+}
+
+strong{
+    color: var(--texto);
+}
+  
+main{
+    display: flex;
+    flex-direction: column;
+}
+

@@ -1,0 +1,23 @@
+.consultas__data {
+    display: flex;
+    align-items: center;
+    height: 46px;
+    padding: 0 16px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_perfil {
+    background-color: var(--fundo-card);
+    display: flex;
+    flex-direction: column;
+    width: 328px;
+    height: 160px;
+    padding: 16px 16px 0;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}

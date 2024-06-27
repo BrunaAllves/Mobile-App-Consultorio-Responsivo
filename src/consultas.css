@@ -5,19 +5,57 @@
     padding: 0 16px;
 }
 
-.container {
+.container_consultas {
     display: flex;
     flex-direction: column;
     align-items: center;
+    list-style: none;
 }
 
 .container_perfil {
-    background-color: var(--fundo-card);
+    background: var(--fundo-card);
+
     display: flex;
     flex-direction: column;
+  
     width: 328px;
     height: 160px;
     padding: 16px 16px 0;
     border-radius: 8px;
     margin-bottom: 16px;
+}
+
+.consulta_card_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.consulta_card_container_perfil {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.consulta_card_img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 16px;
+    object-fit: cover;
+}
+
+.consulta_card_usuario>strong {
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.consulta_card_inform_pg {
+    font-size: 13px;
+    color: var(--texto-claro);
+    display: flex;
+    grid-gap: 5px;
+    flex-direction: row;
+    align-items: center;
 }

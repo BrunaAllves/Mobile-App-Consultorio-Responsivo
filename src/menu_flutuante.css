@@ -6,7 +6,7 @@
     position: absolute;
     right: 16px;
     bottom: 70px;
-  
+    background-color: var(--cor-primaria);
     width: 56px;
     height: 56px;
     border-radius: 50%;
@@ -18,9 +18,11 @@ button.botao__flutuante-cadastro span{
     position: absolute;
     width: 16px;
     height: 16px;
+    background-color: var(--cor-primaria);
     background-image: url('../img/icons_menu_flutuante/Mais.svg');
     background-position: center;
     background-repeat: no-repeat;
+    background-color: #4894FF80;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -34,6 +36,7 @@ button.botao__flutuante-cadastro span{
     bottom: 0;
     padding: 80vh 0 20px 0;
     padding-bottom: 130px;
+    background-color: #4894FF80;
   
     transition: .3s ease;
       transform: scale(0);
@@ -68,7 +71,7 @@ button.botao__flutuante-cadastro span{
   
 button.botao__flutuante-item{
     display: flex;
-  
+    background-color: var(--cor-primaria);
     width: 56px;
     height: 56px;
     border-radius: 50%;

@@ -1,0 +1,28 @@
+@media screen and (max-width: 760px)  {
+    .container_consultas {
+        display: flex;
+        flex-direction: column; 
+        list-style: none;
+        padding: 16px 0;
+        justify-content: flex-start;
+        margin-left: 0;
+        gap: 1rem;
+        }
+}
+
+@media screen and (max-width: 1080px)  {
+    .container_consultas {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        padding: 16px 16px;
+        justify-content: flex-start;
+        margin-left: 0;
+        gap: 1rem;
+        }
+}
+
+
+
+
+

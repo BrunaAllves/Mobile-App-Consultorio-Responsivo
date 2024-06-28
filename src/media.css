@@ -3,11 +3,10 @@
         display: flex;
         flex-direction: column; 
         list-style: none;
-        padding: 16px 0;
-        justify-content: flex-start;
-        margin-left: 0;
-        gap: 1rem;
-        }
+        justify-content: center;
+        
+    }
+
 }
 
 @media screen and (max-width: 1080px)  {
@@ -15,11 +14,12 @@
         display: flex;
         flex-wrap: wrap;
         list-style: none;
-        padding: 16px 16px;
+        padding: 16px 16px ;
         justify-content: flex-start;
         margin-left: 0;
-        gap: 1rem;
-        }
+        gap: 2rem;
+    }
+
 }
 
 

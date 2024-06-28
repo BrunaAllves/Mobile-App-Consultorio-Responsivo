@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
 
 @import url('../src/reset.css');
-@import url('../src/barra.css');
 @import url('../src/home.css');
 @import url('../src/consultas.css');
+@import url('../src/rodape.css');
 
 body{
     background: var(--fundo);

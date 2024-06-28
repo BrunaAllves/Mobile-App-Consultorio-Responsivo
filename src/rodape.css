@@ -42,20 +42,20 @@ section.rodape{
 }
 
 .rodape nav .rodape__acao span.consultas-icone{
-    background-image: url('../assets/icons/Calendar.svg');
+    background-image: url('../img/icons_rodape/Calendar.svg');
 }
   
 .rodape nav .rodape__acao span.clientes-icone{
     opacity: 30%;
-    background-image: url('../assets/icons/Clientes.svg');
+    background-image: url('../img/icons_rodape/Clientes.svg');
 }
 
 .rodape nav .rodape__acao span.relatorios-icone{
     opacity: 30%;
-    background-image: url('../assets/icons/Relatorios.svg');
+    background-image: url('../img/icons_rodape/Relatorios.svg');
 }
 
 .rodape nav .rodape__acao span.menu-icone{
     opacity: 30%;
-    background-image: url('../assets/icons/Menu.svg');
+    background-image: url('../img/icons_rodape/Menu.svg');
 }

@@ -4,6 +4,7 @@
 @import url('../src/home.css');
 @import url('../src/consultas.css');
 @import url('../src/rodape.css');
+@import url('../src/menu_flutuante.css');
 
 body{
     background: var(--fundo);
